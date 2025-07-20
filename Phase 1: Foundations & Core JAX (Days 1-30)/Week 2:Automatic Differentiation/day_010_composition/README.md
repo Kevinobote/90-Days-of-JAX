@@ -26,6 +26,3 @@
 - **Part 3 (`jit(grad(vmap(func)))`):** A more advanced example demonstrating how to compose `grad` and `vmap` to compute gradients for a batched loss function, a common scenario in ML.
 - **Part 4 (Simplified Training Loop):** Revisits the neural network training from Day 8, emphasizing how all these transformations (`jit`, `grad`, `vmap` - implicitly in `batched_forward_pass`) come together in a practical setting.
 - **Part 5 (Next Steps):** A summary of key advanced topics to explore after completing this foundational challenge.
-
-## Congratulations!
-You have now completed the 10-day JAX Foundation Core Challenge. You have built a strong understanding of JAX's core principles and primary transformations. This foundation will serve you well as you delve deeper into machine learning, scientific computing, and high-performance numerical programming with JAX. Keep practicing, building, and exploring!
